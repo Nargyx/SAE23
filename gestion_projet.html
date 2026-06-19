@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAÉ 23 - Gestion de Projet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>SAÉ 23 : Gestion d'un réseau de capteurs IoT</h1>
+        <p>IUT de Blagnac - Département Réseaux et Télécommunications</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="admin.php">Administration</a>
+        <a href="gestion.php">Gestion</a>
+        <a href="consultation.php">Consultation</a>
+        <a href="gestion_projet.html">Gestion de projet</a>
+    </nav>
+
+    <main class="container">
+        <h2>Gestion de Projet</h2>
+        <p>Cette page détaille l'organisation, la planification et le bilan du travail d'équipe réalisé dans le cadre de la SAÉ 23.</p>
+
+        <hr>
+
+        <section>
+            <h3>1. Planification temporelle (GANTT Final)</h3>
+            <p>Le diagramme ci-dessous représente le suivi réel de nos livrables (L1 à L4) étalés sur les semaines de développement (Semaines 23 à 25).</p>
+            <div style="text-align: center; margin: 20px 0;">
+                <img src="img/gantt.png" alt="Diagramme de GANTT Final" style="max-width: 100%; height: auto; border: 1px solid #ccc; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>2. Utilisation des outils collaboratifs</h3>
+            <p>Pour assurer un suivi rigoureux, partager les ressources et maintenir un versionnage propre de notre code, nous avons articulé notre travail autour de la plateforme GitHub.</p>
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 20px 0;">
+                <div style="flex: 1; min-width: 280px; margin: 10px; text-align: center;">
+                    <h4>Suivi des commits et branches</h4>
+                    <img src="img/github1.png" alt="Capture d'écran des commits GitHub" style="max-width: 100%; border: 1px solid #ccc;">
+                </div>
+                <div style="flex: 1; min-width: 280px; margin: 10px; text-align: center;">
+                    <h4>Gestion du dépôt d'équipe</h4>
+                    <img src="img/github2.png" alt="Capture d'écran du dépôt GitHub" style="max-width: 100%; border: 1px solid #ccc;">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>3. Synthèses individuelles des membres</h3>
+            <p>Chaque membre de l'équipe a contribué de manière ciblée au succès du projet à travers un travail précis :</p>
+            
+            <ul>
+                <li>
+                    <strong>PERIN Nicolas :</strong> 
+                    Création des conteneurs Docker, participation à la création du script de récupération des données. 
+                </li>
+                <li>
+                    <strong>CHONE Arthur :</strong> 
+                    Création du diagramme de GANTT, mise en place de la page gestion, participation à la création du script de récupération des données. 
+                </li>
+                <li>
+                    <strong>NEVES RUBEN :</strong> 
+                    Création de la base de données, mise en place de la page administration et participation à la création du script de récupération des données. 
+                </li>
+                <li>
+                    <strong>VACHER Maël :</strong> 
+                    Mise en place de la VM, installation et sécurisation de XAMPP, création des pages index et gestion de projet. 
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>4. Difficultés rencontrées et Solutions</h3>
+            <p>Tout au long du projet, l'équipe a su faire face à divers obstacles techniques :</p>
+            
+            <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                <thead>
+                    <tr style="background-color: #34495e; color: white;">
+                        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Problème rencontré</th>
+                        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Solution apportée</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Difficulté rencontrée dans la récupération des nouvelles mesures.</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Correction d'une erreur de syntaxe dans le code.</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Le script de récupération ne fonctionnait pas.</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Ajout de l'identifiant (User) et du mot de passe (PassWD) manquants dans la commande Mosquitto SUB.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+     
+        <section>
+            <h3>5. Ressources universitaires mobilisées</h3>
+            <p>La réalisation de cette SAÉ s'appuie sur les compétences acquises à travers différentes ressources de notre formation :</p>
+            
+            <article>
+                <h4>Ressources Transverses</h4>
+                <dl class="ressources-liste">
+                    <dt><strong>R210</strong> : Documentation des codes en anglais</dt>
+                    <dd>Traduction et rédaction des commentaires techniques de l'intégralité du code informatique.</dd>
+                    
+                    <dt><strong>R211</strong> : Présentation orale et rédaction technique</dt>
+                    <dd>Préparation de la soutenance, structuration de la maquette et des rapports de synthèse.</dd>
+                    
+                    <dt><strong>R115</strong> : Organisation du travail</dt>
+                    <dd>Planification des livrables de l'équipe et suivi rigoureux du diagramme de GANTT.</dd>
+                </dl>
+            </article>
+
+            <article>
+                <h4>Ressources Techniques</h4>
+                <dl class="ressources-liste">
+                    <dt><strong>R107 & R208</strong> : Algorithmie et programmation</dt>
+                    <dd>Conception logique des scripts et développement des fonctionnalités dynamiques.</dd>
+                    
+                    <dt><strong>R108</strong> : Environnement GNU/Linux et scripts Bash</dt>
+                    <dd>Administration de la machine virtuelle, exécution des commandes systèmes et tâches planifiées.</dd>
+                    
+                    <dt><strong>R109 & R209</strong> : Mise en forme d'une page web dynamique</dt>
+                    <dd>Création de l'interface utilisateur (IHM) en HTML/CSS et publication sur le serveur web.</dd>
+                    
+                    <dt><strong>R207</strong> : Mise en place d'une base de données</dt>
+                    <dd>Conception du schéma relationnel MySQL pour l'organisation des bâtiments, salles et capteurs.</dd>
+                    
+                    <dt><strong>R202</strong> : Mise en place de conteneurs Docker</dt>
+                    <dd>Architecture et isolation de l'écosystème IoT (Broker Mosquitto, InfluxDB et Grafana).</dd>
+                </dl>
+            </article>
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>6. Environnements, logiciels et outils déployés</h3>
+            <p>Pour matérialiser l'architecture IoT et le site web, nous avons configuré et utilisé une suite complète de technologies et de logiciels :</p>
+            
+            <article>
+                <h4>Infrastructure IoT & Conteneurs (Docker)</h4>
+                <dl class="ressources-liste">
+                    <dt><strong>Docker</strong></dt>
+                    <dd>Utilisé pour isoler, déployer et interconnecter rapidement les différents services de la chaîne de traitement sans conflit de dépendances.</dd>
+                    
+                    <dt><strong>Mosquitto</strong></dt>
+                    <dd>Le broker MQTT indispensable pour gérer les files d'attente de messages (Publish/Subscribe) envoyés par les capteurs des bâtiments.</dd>
+                    
+                    <dt><strong>Node-RED</strong></dt>
+                    <dd>Outil de programmation événementielle en flux (flow-based) pour intercepter les données MQTT, les filtrer via un nœud <em>switch</em> et les injecter vers les bases de données.</dd>
+                    
+                    <dt><strong>InfluxDB</strong></dt>
+                    <dd>Système de gestion de base de données orienté séries temporelles (TSDB), optimisé pour l'historisation des mesures chronologiques des capteurs.</dd>
+                    
+                    <dt><strong>Grafana</strong></dt>
+                    <dd>Plateforme de visualisation qui s'appuie sur InfluxDB pour concevoir des tableaux de bord métriques interactifs (courbes, jauges) destinés à la supervision.</dd>
+                </dl>
+            </article>
+
+            <article>
+                <h4>Environnement Serveur & Développement Web</h4>
+                <dl class="ressources-liste">
+                    <dt><strong>Lubuntu (Machine Virtuelle)</strong></dt>
+                    <dd>Système d'exploitation GNU/Linux léger utilisé comme environnement de développement et d'hébergement pour l'ensemble de la maquette.</dd>
+                    
+                    <dt><strong>XAMPP</strong></dt>
+                    <dd>Distribution logicielle regroupant le serveur web Apache, le langage PHP et le serveur de base de données MySQL nécessaires à l'exécution de l'IHM.</dd>
+                    
+                    <dt><strong>MySQL & phpMyAdmin</strong></dt>
+                    <dd>Moteur de base de données relationnelle pour stocker les structures fixes (comptes, bâtiments, salles) et interface web de gestion graphique du schéma SQL.</dd>
+                </dl>
+            </article>
+
+            <article>
+                <h4>Gestion de Version & Outils Collaboratifs</h4>
+                <dl class="ressources-liste">
+                    <dt><strong>Git & GitHub</strong></dt>
+                    <dd>Outils de gestion de versions décentralisée pour suivre l'historique des modifications du code, travailler en équipe sur des branches distinctes et centraliser le projet sur un dépôt distant.</dd>
+                    
+                    <dt><strong>Crontab (cron)</strong></dt>
+                    <dd>Planificateur de tâches natif sous Linux, configuré pour exécuter automatiquement et à intervalles réguliers nos scripts PHP/Bash de collecte.</dd>
+                </dl>
+            </article>
+        </section>
+
+        <hr>
+        
+        <section>
+            <h3>7. Conclusion et degré de satisfaction</h3>
+            <blockquote>
+                <p>Le projet SAÉ 23 nous a permis de concrétiser les notions théoriques acquises au cours du semestre, notamment l'interconnexion entre des infrastructures systèmes (Docker, serveurs web) et le développement de scripts ou d'interfaces dynamiques. Nos objectifs initiaux concernant la collecte, le stockage et la restitution fluide des données des capteurs de l'IUT ont été atteints.</p>
+                <p><strong>Degré de satisfaction vis-à-vis du cahier des charges : 70%</strong>. L'ensemble des contraintes conceptuelles (modélisation de la base de données, isolation des rôles utilisateurs) et techniques (sécurisation des sessions, documentation des codes en anglais) ont été respectées.</p>
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - SAÉ 23 - Département R&T Blagnac. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
